@@ -11,14 +11,19 @@ session_start() ;
     <title></title>
   </head>
   <body>
-        <h1>POO</h1>
+        <h1>verification</h1>
+        
         <?php if (isset($_SESSION['message'])) {
               echo $_SESSION['message'];
         } ?>
+
         <form class="" action="authentification.php" method="post">
-              <input type="text" name="email" value="">
-              <input type="text" name="mdp" value="">
+              <input type="text" name="email">
+              <input type="text" name="mdp">
+              <input type="checkbox" name="check[]">
+              <label for="">robot</label>
               <input type="submit" name="connect" value="verifier">
+
         </form>
 
   </body>

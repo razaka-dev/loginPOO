@@ -1,6 +1,6 @@
 <?php
 
-  class verification
+  class formClass
   {
 
     /**
@@ -10,11 +10,6 @@
     private $motDePasse ;
     private $majuscule = 0 ;
     private $chiffre = 0 ;
-
-    function __construct()
-    {
-
-    }
 
     /**
      * recuperation de donne dans l'input
@@ -72,10 +67,6 @@
                return false ;
          }
     }
-
-
-
-
   }
 
  ?>
